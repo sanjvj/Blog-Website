@@ -93,7 +93,7 @@ body{
 
 
 .form-container {
-    background: rgba(255, 255, 255, 0.2);
+   
     margin-left: 500px;
     margin-right: 300px;
     margin-top: 50px;
@@ -239,4 +239,18 @@ textarea {
 
 .viewbody{
   background-image: url("/public/joanna-kosinska-78uNJt1kPw8-unsplash.jpg");
+}
+
+.update-container {
+
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
