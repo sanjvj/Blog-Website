@@ -8,7 +8,7 @@
 
   <div class="Main">
     <h2>Modify Post</h2>
-    <form method="POST" action="/update/<%= selectedPost.id %>?_method=PATCH">
+    <form method="POST" action="/update/<%= selectedPost.id %>?_method=PATCH" style="display: flex;">
       <label for="title">Title:</label>
       <input type="text" id="title" name="title" value="<%= selectedPost.title %>" required>
 
