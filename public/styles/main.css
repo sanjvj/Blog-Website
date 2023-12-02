@@ -1,0 +1,242 @@
+.heading{
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 251px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.heading h1{
+   
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.heading p{
+    font-family: 'Caveat', cursive;
+font-family: 'League Spartan', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Monoton', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Space Mono', monospace;
+margin: 0%;
+}
+body{
+    background-color: black;
+    margin-top: 0%;
+}
+#sidenav {
+    color: white;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+
+  #sidenav p{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidebar{
+    padding-top: 50px;
+  }
+
+  /* Change the color of the sidenav links on hover */
+  #sidenav p:hover {
+    cursor: pointer;
+    background-color: #EE224A50;
+    border-radius: 20px;
+  }
+
+.Main{
+    padding-left: 300px;
+    padding-top: 50px;
+    color: #afadad;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.Main h2{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.Main p{
+  font-family: 'Open Sans', sans-serif;
+}
+.start{
+  padding-left: 550px;
+  padding-top: 250px;
+}
+
+.back{
+    z-index: 1;
+}
+
+
+.form-container {
+    background: rgba(255, 255, 255, 0.2);
+    margin-left: 500px;
+    margin-right: 300px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    margin-top: 0%;
+  }
+  .form-group label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  .form-group input, 
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  .form-group input[type="submit"] {
+    background-color: #EE224A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .form-group input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .container  {
+    width: 1000px; /* Set the width of the container */
+    margin-top: 40px ;
+    margin-left: 1px;
+    padding: 20px; /* Add padding inside the container */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    box-shadow: 0 0 10px rgb(255, 1, 1); 
+    border-radius: 20px;
+    background-color: #333;
+    transition: 0.3s;
+}
+.container:hover{
+  background-color: #EE224A70;
+  cursor: pointer;
+}
+.title {
+  font-size: 32px; /* Set the font size for the title */
+  font-weight: bold;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.description>p{
+  padding: 0px;
+  color: #ffffff95;
+  margin-top: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  margin: 0;
+}
+
+.blog-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.viewtitle{
+  color :white;
+  text-align: center;
+
+  margin-left: 250px;
+  padding-top: 50px;
+  font-family: serif;
+  font-size: 55px;
+  margin-bottom: 0;
+}
+
+.viewdescription{
+  color : #ffffff90;
+  padding-left: 300px;
+  font-size: 25px;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+}
+
+.content{
+  color :white;
+  padding-left: 300px;
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+.viewbody{
+  background-image: url("/public/joanna-kosinska-78uNJt1kPw8-unsplash.jpg");
+}
